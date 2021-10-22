@@ -1,0 +1,29 @@
+{
+    "name": "magenxcommerce/framework-message-queue",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "type": "magento2-library",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magenxcommerce/framework": "103.0.*",
+        "php": "~7.3.0||~7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\Framework\\MessageQueue\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "version": "100.4.0",
+    "replace": {
+        "magento/framework-message-queue": "*"
+    },
+    "suggest": {}
+}
